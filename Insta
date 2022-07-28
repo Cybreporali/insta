@@ -1,0 +1,11 @@
+?php
+
+class ControllerModuleInstagram extends Controller {
+
+	private $error = array();
+
+	public function index() {
+
+		$file = DIR_CATALOG . 'view/javascript/instagram/css/mycustom.css';
+
+		$version = "2.2";
